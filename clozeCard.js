@@ -1,5 +1,12 @@
+// TODO - Check Cloze Side Contains the "Whole Flashcard" else - throw an error.
+// Example:   Full Text: ANSWER is the correct answer.
+//            Cloze Text: ANSW3R 
+//              ^--- should throw an error since ANSW3R does not match Full Text.
+
+
+
 // // Depend on Node module to export a constructor for creating the CLOZE-DELETION flashcards 
-// module.exports = clozeCard; 
+module.exports = ClozeCardCreation; 
 
 // //Require NPM Packages
 
@@ -54,7 +61,7 @@ function createCard() {
         //create NEW 
         var card = new ClozeCardCreation(answers.text, answers.cloze);
         card.cardWriter();
-        // if user is finished makign cards then log it if not then allow them to create another
+        // if user is finished making cards then log it if not then allow them to create another
         // card that the 
         if(answers.display === true)
         	console.log(card.displayClozeDeleted());
@@ -67,4 +74,3 @@ function createCard() {
 }
 //call the original constructor function
 createCard();
-}

@@ -1,7 +1,7 @@
-// // Depend on Node module to export a constructor for creating the BASIC flashcards 
-// module.exports = basicCard; 
+// Depend on Node module to export a constructor for creating the BASIC flashcards 
+module.exports = BasicCardCreation; 
 
-// // Require NPM Packages
+// Require NPM Packages
 
 const fs = require("fs"); 
 const inquirer = require("inquirer"); 
