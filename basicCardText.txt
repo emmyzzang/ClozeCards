@@ -10,3 +10,9 @@ Front: Do you want to get deleted?
 Back: Yes, yes, you do want to get deleted. 
 Front: Am I chatting with myself in the CLI at 2am? 
 Back: Yesu-desu indeed.
+Front: What is the difference between vector and scalar? 
+Back: A vector quantity has both magnitude and a direction, whereas a scalar quantity has only magnitude.
+Front: What is a magnetic field (not the band)?
+Back: A vector quantity that relates the force exerted on a magnet or current-carrying wire to the strength of the magnet or the size of the current.
+Front: What is an electric motor?
+Back: A device that converts electrical energy to kinetic energy.
